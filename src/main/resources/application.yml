@@ -1,0 +1,11 @@
+logging:
+  level:
+    root: INFO
+
+spring:
+  main:
+    banner-mode: off
+
+signing:
+  private-key: "keys/private-generic-atp-service-signing-key.pem"
+  public-key: "keys/public-generic-atp-service-signing-key.pem"
