@@ -1,0 +1,11 @@
+logging:
+  level:
+    root: INFO
+
+spring:
+  main:
+    banner-mode: off
+
+signing:
+  key: ${DI_IPV_GENERIC_ATP_SIGN_KEY}
+  cert: ${DI_IPV_GENERIC_ATP_SIGN_CERT}
