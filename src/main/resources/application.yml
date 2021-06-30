@@ -7,5 +7,5 @@ spring:
     banner-mode: off
 
 signing:
-  private-key: "keys/private-generic-atp-service-signing-key.pem"
-  public-key: "keys/public-generic-atp-service-signing-key.pem"
+  key: ${DI_IPV_GENERIC_ATP_SIGN_KEY}
+  cert: ${DI_IPV_GENERIC_ATP_SIGN_CERT}

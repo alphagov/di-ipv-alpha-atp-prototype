@@ -6,5 +6,5 @@ applications:
     buildpack: java_buildpack
     env:
       JAVA_HOME: "../.java-buildpack/open_jdk_jre"
-      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 16.+}, memory_calculator: {stack_threads: 200}}'
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 15.+}, memory_calculator: {stack_threads: 200}}'
       JAVA_OPTS: '-Xss200k -XX:ReservedCodeCacheSize=50M -XX:MaxMetaspaceSize=100M'

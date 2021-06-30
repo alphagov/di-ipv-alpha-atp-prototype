@@ -11,12 +11,12 @@ import uk.gov.cabinetoffice.di.ipv.genericatpservice.services.SigningService;
 
 @Controller
 @Slf4j
-public class ATPController {
+public class AtpController {
 
     private final SigningService signingService;
 
     @Autowired
-    public ATPController(SigningService signingService) {
+    public AtpController(SigningService signingService) {
         this.signingService = signingService;
     }
 
