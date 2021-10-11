@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: di-ipv-generic-atp-service
+  - name: di-ipv-alpha-generic-atp-service
     path: build/libs/generic-atp-service-0.0.1-SNAPSHOT.jar
     memory: 256M
     buildpack: java_buildpack
